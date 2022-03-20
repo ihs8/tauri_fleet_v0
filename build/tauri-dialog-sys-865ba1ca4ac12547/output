@@ -1,0 +1,46 @@
+cargo:rustc-link-lib=user32
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("false")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "./boxer/include" "-W4" "-FoC:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\tauri-dialog-sys-865ba1ca4ac12547\\out\\boxer/boxer_win.o" "-c" "boxer/boxer_win.c"
+boxer_win.c
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\tauri-dialog-sys-865ba1ca4ac12547\\out\\libboxer.a" "-nologo" "C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\tauri-dialog-sys-865ba1ca4ac12547\\out\\boxer/boxer_win.o"
+exit code: 0
+cargo:rustc-link-lib=static=boxer
+cargo:rustc-link-search=native=C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\target\release\build\tauri-dialog-sys-865ba1ca4ac12547\out

@@ -1,0 +1,65 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+DEBUG = Some("false")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe" "/nologo" "/MD" "/O2" "/I" "nativefiledialog/src/include" "/W4" "/FoC:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\nfd-97b10972eb0cee8d\\out\\nativefiledialog/src/nfd_common.o" "/c" "nativefiledialog/src/nfd_common.c"
+nfd_common.c
+nativefiledialog/src/nfd_common.c(130): warning C4245: 'return'ÿ: conversion de 'int' en 'size_t', incompatibilit‚ signed/unsigned
+nativefiledialog/src/nfd_common.c(107): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+exit code: 0
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+DEBUG = Some("false")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe" "/nologo" "/MD" "/O2" "/I" "nativefiledialog/src/include" "/W4" "/FoC:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\nfd-97b10972eb0cee8d\\out\\nativefiledialog/src/nfd_win.o" "/c" "nativefiledialog/src/nfd_win.cpp"
+nfd_win.cpp
+nativefiledialog/src/nfd_win.cpp(61): warning C4189: 'inStrCharacterCount'ÿ: variable locale initialis‚e mais non r‚f‚renc‚e
+nativefiledialog/src/nfd_win.cpp(113): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+nativefiledialog/src/nfd_win.cpp(121): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+nativefiledialog/src/nfd_win.cpp(166): warning C4189: 'filterName'ÿ: variable locale initialis‚e mais non r‚f‚renc‚e
+exit code: 0
+TARGET = Some("x86_64-pc-windows-msvc")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\lib.exe" "/OUT:C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\nfd-97b10972eb0cee8d\\out\\libnfd.a" "/nologo" "C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\nfd-97b10972eb0cee8d\\out\\nativefiledialog/src/nfd_common.o" "C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\nfd-97b10972eb0cee8d\\out\\nativefiledialog/src/nfd_win.o"
+exit code: 0
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+cargo:rustc-link-lib=static=nfd
+cargo:rustc-link-search=native=C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\target\release\build\nfd-97b10972eb0cee8d\out
+TARGET = Some("x86_64-pc-windows-msvc")
+cargo:rustc-link-lib=ole32
+cargo:rustc-link-lib=uuid

@@ -1,0 +1,32 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("false")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-W4" "-FoC:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\runas-792d4f84b6491b26\\out\\runas-windows.o" "-c" "runas-windows.c"
+runas-windows.c
+runas-windows.c(12): warning C4133: '='ÿ: types incompatibles - de 'unsigned short [6]' … 'LPCSTR'
+runas-windows.c(13): warning C4047: '='ÿ: les niveaux d'indirection de 'LPCSTR' et de 'LPCTSTR *' sont diff‚rents
+runas-windows.c(14): warning C4047: '='ÿ: les niveaux d'indirection de 'LPCSTR' et de 'LPCTSTR *' sont diff‚rents
+runas-windows.c(17): warning C4133: 'fonction'ÿ: types incompatibles - de 'SHELLEXECUTEINFO *' … 'SHELLEXECUTEINFOW *'
+runas-windows.c(18): warning C4245: 'return'ÿ: conversion de 'int' en 'DWORD', incompatibilit‚ signed/unsigned
+runas-windows.c(24): warning C4245: 'return'ÿ: conversion de 'int' en 'DWORD', incompatibilit‚ signed/unsigned
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\runas-792d4f84b6491b26\\out\\librunas.a" "-nologo" "C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\runas-792d4f84b6491b26\\out\\runas-windows.o"
+exit code: 0
+cargo:rustc-link-lib=static=runas
+cargo:rustc-link-search=native=C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\target\release\build\runas-792d4f84b6491b26\out
+cargo:rustc-link-lib=ole32

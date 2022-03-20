@@ -1,0 +1,167 @@
+cargo:rustc-link-lib=windowsapp
+cargo:rustc-link-lib=user32
+cargo:rustc-link-lib=oleaut32
+cargo:rustc-link-lib=ole32
+cargo:rustc-link-search=C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official/script/Microsoft.Web.WebView2.0.9.488/build/native\x64
+cargo:rustc-link-lib=WebView2Loader.dll
+cargo:rerun-if-changed=webview-official/webview.h
+cargo:rerun-if-changed=webview-official/webview.cc
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("false")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "webview-official/webview.h" "-I" "webview-official/script" "-W4" "/std:c++17" "-FoC:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\webview-official-sys-4155ed85399a1164\\out\\webview-official/webview.o" "-c" "webview-official/webview.cc"
+webview.cc
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\ppltasks.h(1571): warning C4530: Gestionnaire d'exceptions C++ utilis‚, mais les s‚mantiques de d‚roulement n'ont pas ‚t‚ activ‚es. Sp‚cifiez /EHsc
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(195): warning C4267: '='ÿ: conversion de 'size_t' en 'int', perte possible de donn‚es
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(840): warning C4100: 'debug'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(894): warning C4244: 'argument'ÿ: conversion de 'LONG' en 'float', perte possible de donn‚es
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(894): warning C4244: 'argument'ÿ: conversion de 'LONG' en 'float', perte possible de donn‚es
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(894): warning C4244: 'argument'ÿ: conversion de 'LONG' en 'float', perte possible de donn‚es
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(894): warning C4244: 'argument'ÿ: conversion de 'LONG' en 'float', perte possible de donn‚es
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(917): warning C4996: 'std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\codecvt(425): note: voir la d‚claration de 'std::codecvt_utf8_utf16'
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(917): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xlocbuf(302): note: voir la d‚claration de 'std::wstring_convert'
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(917): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::wstring_convert': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(919): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::from_bytes': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(920): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::from_bytes': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(908): warning C4100: 'debug'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(996): warning C4100: 'ppv'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(996): warning C4100: 'riid'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(999): warning C4100: 'res'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(1004): warning C4100: 'res'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(1022): warning C4996: 'std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\codecvt(425): note: voir la d‚claration de 'std::codecvt_utf8_utf16'
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(1022): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.30.30705\include\xlocbuf(302): note: voir la d‚claration de 'std::wstring_convert'
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(1022): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::wstring_convert': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(1023): warning C4996: 'std::wstring_convert<std::codecvt_utf8_utf16<wchar_t,1114111,(std::codecvt_mode)0>,wchar_t,std::allocator<wchar_t>,std::allocator<char>>::to_bytes': warning STL4017: std::wbuffer_convert, std::wstring_convert, and the <codecvt> header (containing std::codecvt_mode, std::codecvt_utf8, std::codecvt_utf16, and std::codecvt_utf8_utf16) are deprecated in C++17. (The std::codecvt class template is NOT deprecated.) The C++ Standard doesn't provide equivalent non-deprecated functionality; consider using MultiByteToWideChar() and WideCharToMultiByte() from <Windows.h> instead. You can define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(1030): warning C4100: 'sender'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(1090): warning C4244: 'return'ÿ: conversion de 'LRESULT' en 'int', perte possible de donn‚es
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(864): warning C4100: 'args'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt\winrt/Windows.Foundation.h(895): note: voir la r‚f‚rence … l'instanciation de la fonction modŠle 'void webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>::operator ()<TSender,TResult>(const TSender &,const TResult &) const' en cours de compilation
+        with
+        [
+            TSender=winrt::Windows::Web::UI::IWebViewControl,
+            TResult=winrt::Windows::Web::UI::WebViewControlNavigationStartingEventArgs
+        ]
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt\winrt/Windows.Foundation.h(893): note: pendant la compilation de la fonction membre classe modŠle 'int32_t winrt::impl::delegate<T,H>::Invoke(void *,void *) noexcept'
+        with
+        [
+            T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlNavigationStartingEventArgs>,
+            H=webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>
+        ]
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt\winrt/base.h(4386): note: voir la r‚f‚rence … l'instanciation classe modŠle 'winrt::impl::delegate<T,H>' en cours de compilation
+        with
+        [
+            T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlNavigationStartingEventArgs>,
+            H=webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>
+        ]
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt\winrt/Windows.Foundation.h(2483): note: voir la r‚f‚rence … l'instanciation de la fonction modŠle 'T winrt::impl::make_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlNavigationStartingEventArgs>,_Ty>(H &&)' en cours de compilation
+        with
+        [
+            T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlNavigationStartingEventArgs>,
+            _Ty=webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>,
+            H=webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>
+        ]
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(864): note: voir la r‚f‚rence … l'instanciation de la fonction modŠle 'winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlNavigationStartingEventArgs>::TypedEventHandler<webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>>(L)' en cours de compilation
+        with
+        [
+            L=webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>
+        ]
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(862): note: voir la r‚f‚rence … l'instanciation de la fonction modŠle 'winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlNavigationStartingEventArgs>::TypedEventHandler<webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>>(L)' en cours de compilation
+        with
+        [
+            L=webview::edge_html::embed::<lambda_91021b3e8e9c1ed7653c6290c523d21c>
+        ]
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(864): warning C4100: 'sender'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(861): warning C4100: 'sender'ÿ: paramŠtre formel non r‚f‚renc‚
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt\winrt/Windows.Foundation.h(895): note: voir la r‚f‚rence … l'instanciation de la fonction modŠle 'void webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>::operator ()<TSender,TResult>(const TSender &,const TResult &) const' en cours de compilation
+        with
+        [
+            TSender=winrt::Windows::Web::UI::IWebViewControl,
+            TResult=winrt::Windows::Web::UI::WebViewControlScriptNotifyEventArgs
+        ]
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt\winrt/Windows.Foundation.h(893): note: pendant la compilation de la fonction membre classe modŠle 'int32_t winrt::impl::delegate<T,H>::Invoke(void *,void *) noexcept'
+        with
+        [
+            T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlScriptNotifyEventArgs>,
+            H=webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>
+        ]
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt\winrt/base.h(4386): note: voir la r‚f‚rence … l'instanciation classe modŠle 'winrt::impl::delegate<T,H>' en cours de compilation
+        with
+        [
+            T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlScriptNotifyEventArgs>,
+            H=webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>
+        ]
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt\winrt/Windows.Foundation.h(2483): note: voir la r‚f‚rence … l'instanciation de la fonction modŠle 'T winrt::impl::make_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlScriptNotifyEventArgs>,_Ty>(H &&)' en cours de compilation
+        with
+        [
+            T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlScriptNotifyEventArgs>,
+            _Ty=webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>,
+            H=webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>
+        ]
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(861): note: voir la r‚f‚rence … l'instanciation de la fonction modŠle 'winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlScriptNotifyEventArgs>::TypedEventHandler<webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>>(L)' en cours de compilation
+        with
+        [
+            L=webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>
+        ]
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-official-sys-0.1.2\webview-official\webview.h(858): note: voir la r‚f‚rence … l'instanciation de la fonction modŠle 'winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Web::UI::IWebViewControl,winrt::Windows::Web::UI::WebViewControlScriptNotifyEventArgs>::TypedEventHandler<webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>>(L)' en cours de compilation
+        with
+        [
+            L=webview::edge_html::embed::<lambda_97895c3d493fb25b90f78a2e3756e5b2>
+        ]
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\webview-official-sys-4155ed85399a1164\\out\\libwebview.a" "-nologo" "C:\\Windows\\System32\\tauri-tutorial\\fleet_v0\\src-tauri\\target\\release\\build\\webview-official-sys-4155ed85399a1164\\out\\webview-official/webview.o"
+exit code: 0
+cargo:rustc-link-lib=static=webview
+cargo:rustc-link-search=native=C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\target\release\build\webview-official-sys-4155ed85399a1164\out
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None

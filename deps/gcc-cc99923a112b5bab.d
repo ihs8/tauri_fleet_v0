@@ -1,0 +1,12 @@
+C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\target\release\deps\gcc-cc99923a112b5bab.rmeta: C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\lib.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\registry.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\winapi.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\com.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\setup_config.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\windows_registry.rs
+
+C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\target\release\deps\libgcc-cc99923a112b5bab.rlib: C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\lib.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\registry.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\winapi.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\com.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\setup_config.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\windows_registry.rs
+
+C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\target\release\deps\gcc-cc99923a112b5bab.d: C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\lib.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\registry.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\winapi.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\com.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\setup_config.rs C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\windows_registry.rs
+
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\lib.rs:
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\registry.rs:
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\winapi.rs:
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\com.rs:
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\setup_config.rs:
+C:\Users\Raed\.cargo\registry\src\github.com-1ecc6299db9ec823\gcc-0.3.55\src\windows_registry.rs:

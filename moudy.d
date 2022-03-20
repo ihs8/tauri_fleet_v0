@@ -1,0 +1,1 @@
+C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\target\release\moudy.exe: C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\src\build.rs C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\src\cmd.rs C:\Windows\System32\tauri-tutorial\fleet_v0\src-tauri\src\main.rs
